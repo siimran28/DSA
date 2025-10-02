@@ -29,7 +29,7 @@ int main() {
     vector<int> nums = {5, 8, 3, 9};
 
     cout << "Largest number = " << sol.largest(nums) << endl;
-    cout << "Smallest number = " << sol.smallest(nums) << endl;
+    cout << "Smallest number = " << sol.smallest(nums) ;
 
     return 0;
 }
