@@ -3,7 +3,7 @@ using namespace std;
 class Solution{
     public:
         int missingnum(vector<int>&nums,int n){
-            //using sum formula o(n)
+            //using sum formula o(n) optimal
             //if we sort and traverse take then o(nlogn)
          int sum=n*((n+1)/2);
          int s=0;
